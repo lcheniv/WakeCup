@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550049AE1C67329100D61607 /* homeVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550049AD1C67329100D61607 /* homeVIewController.swift */; };
+		550049B21C6739B600D61607 /* alarms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550049B11C6739B600D61607 /* alarms.swift */; };
+		550049B41C6784C700D61607 /* alarms2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550049B31C6784C700D61607 /* alarms2.swift */; };
+		550049B61C67879E00D61607 /* friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550049B51C67879D00D61607 /* friends.swift */; };
 		550C7BE41C66935400EF69BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550C7BE31C66935400EF69BA /* AppDelegate.swift */; };
 		550C7BE61C66935400EF69BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550C7BE51C66935400EF69BA /* ViewController.swift */; };
 		550C7BE91C66935400EF69BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550C7BE71C66935400EF69BA /* Main.storyboard */; };
 		550C7BEB1C66935400EF69BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550C7BEA1C66935400EF69BA /* Assets.xcassets */; };
 		550C7BEE1C66935400EF69BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550C7BEC1C66935400EF69BA /* LaunchScreen.storyboard */; };
+		550C7BF81C6693A000EF69BA /* wakeandcup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 550C7BF51C6693A000EF69BA /* wakeandcup.jpg */; };
+		550C7BF91C6693A000EF69BA /* mainpage_layout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 550C7BF61C6693A000EF69BA /* mainpage_layout.jpg */; };
+		550C7BFA1C6693A000EF69BA /* login_layout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 550C7BF71C6693A000EF69BA /* login_layout.jpg */; };
+		550C7BFC1C66AAA400EF69BA /* login_page.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 550C7BFB1C66AAA400EF69BA /* login_page.jpg */; };
+		550C7BFE1C66B23500EF69BA /* friends_page.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 550C7BFD1C66B23500EF69BA /* friends_page.jpg */; };
+		550C7C001C66BC8500EF69BA /* current_alarms_page.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 550C7BFF1C66BC8500EF69BA /* current_alarms_page.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		550049AD1C67329100D61607 /* homeVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeVIewController.swift; sourceTree = "<group>"; };
+		550049B11C6739B600D61607 /* alarms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = alarms.swift; path = ../alarms.swift; sourceTree = "<group>"; };
+		550049B31C6784C700D61607 /* alarms2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alarms2.swift; sourceTree = "<group>"; };
+		550049B51C67879D00D61607 /* friends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = friends.swift; sourceTree = "<group>"; };
 		550C7BE01C66935400EF69BA /* Wake Up Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wake Up Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		550C7BE31C66935400EF69BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		550C7BE51C66935400EF69BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,12 @@
 		550C7BEA1C66935400EF69BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		550C7BED1C66935400EF69BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		550C7BEF1C66935400EF69BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550C7BF51C6693A000EF69BA /* wakeandcup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wakeandcup.jpg; sourceTree = "<group>"; };
+		550C7BF61C6693A000EF69BA /* mainpage_layout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainpage_layout.jpg; sourceTree = "<group>"; };
+		550C7BF71C6693A000EF69BA /* login_layout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_layout.jpg; sourceTree = "<group>"; };
+		550C7BFB1C66AAA400EF69BA /* login_page.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_page.jpg; sourceTree = "<group>"; };
+		550C7BFD1C66B23500EF69BA /* friends_page.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = friends_page.jpg; sourceTree = "<group>"; };
+		550C7BFF1C66BC8500EF69BA /* current_alarms_page.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = current_alarms_page.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +77,16 @@
 				550C7BE31C66935400EF69BA /* AppDelegate.swift */,
 				550C7BE51C66935400EF69BA /* ViewController.swift */,
 				550C7BE71C66935400EF69BA /* Main.storyboard */,
+				550049B11C6739B600D61607 /* alarms.swift */,
+				550049B31C6784C700D61607 /* alarms2.swift */,
+				550049B51C67879D00D61607 /* friends.swift */,
+				550049AD1C67329100D61607 /* homeVIewController.swift */,
+				550C7BF51C6693A000EF69BA /* wakeandcup.jpg */,
+				550C7BF61C6693A000EF69BA /* mainpage_layout.jpg */,
+				550C7BFD1C66B23500EF69BA /* friends_page.jpg */,
+				550C7BFF1C66BC8500EF69BA /* current_alarms_page.jpg */,
+				550C7BFB1C66AAA400EF69BA /* login_page.jpg */,
+				550C7BF71C6693A000EF69BA /* login_layout.jpg */,
 				550C7BEA1C66935400EF69BA /* Assets.xcassets */,
 				550C7BEC1C66935400EF69BA /* LaunchScreen.storyboard */,
 				550C7BEF1C66935400EF69BA /* Info.plist */,
@@ -96,6 +126,7 @@
 				TargetAttributes = {
 					550C7BDF1C66935400EF69BA = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4R2V2CB5EK;
 					};
 				};
 			};
@@ -122,9 +153,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550C7BF81C6693A000EF69BA /* wakeandcup.jpg in Resources */,
+				550C7BF91C6693A000EF69BA /* mainpage_layout.jpg in Resources */,
 				550C7BEE1C66935400EF69BA /* LaunchScreen.storyboard in Resources */,
+				550C7C001C66BC8500EF69BA /* current_alarms_page.jpg in Resources */,
+				550C7BFC1C66AAA400EF69BA /* login_page.jpg in Resources */,
 				550C7BEB1C66935400EF69BA /* Assets.xcassets in Resources */,
 				550C7BE91C66935400EF69BA /* Main.storyboard in Resources */,
+				550C7BFE1C66B23500EF69BA /* friends_page.jpg in Resources */,
+				550C7BFA1C6693A000EF69BA /* login_layout.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550049AE1C67329100D61607 /* homeVIewController.swift in Sources */,
 				550C7BE61C66935400EF69BA /* ViewController.swift in Sources */,
 				550C7BE41C66935400EF69BA /* AppDelegate.swift in Sources */,
+				550049B21C6739B600D61607 /* alarms.swift in Sources */,
+				550049B41C6784C700D61607 /* alarms2.swift in Sources */,
+				550049B61C67879E00D61607 /* friends.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +288,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Wake Up Final/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lchentheiv.Wake-Up-Final";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -258,10 +302,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Wake Up Final/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lchentheiv.Wake-Up-Final";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -284,6 +331,7 @@
 				550C7BF41C66935400EF69BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
